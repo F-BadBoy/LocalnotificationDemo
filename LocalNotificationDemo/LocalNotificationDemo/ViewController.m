@@ -18,14 +18,12 @@
 @end
 
 @implementation ViewController
-
+//测试，clone自己代码修改后能否顺利再次提交到github上
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
     self.view.backgroundColor = [UIColor orangeColor];
-    
 }
-
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
